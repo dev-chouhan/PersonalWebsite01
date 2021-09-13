@@ -1,0 +1,147 @@
+/* For removing already saved styling for body tab  */
+body{
+    margin: 0 0 0 0;
+    text-align: center;
+    color: #40514e;
+}
+h1{
+    margin : 0 auto 0 auto;
+    width: 40%;
+    font-family: cursive;
+    font-size: 4.625rem;
+    color: #135675;
+}
+
+h2,h3{
+    color: #135675;
+}
+/* Ends here  */
+
+.topContainer{
+    background-color: #65C2F5;
+    /* background-color: #09B1EC; */
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    padding-top: 30px;
+    
+}
+p{
+    font-family: monospace;
+    font-size: 1.2rem;
+    padding-left: 50px;
+    color: #042c44;
+    line-height: 2;
+}
+.pro{
+    text-decoration: underline;
+    
+}
+.cantSeeMe{
+    visibility: hidden;
+    /* block is still there but hidden  */
+}
+
+.topCloud{
+    margin-left: 40%;
+
+}
+.bottomCloud{
+    position: absolute;
+}
+
+hr{
+    border: 15px dotted #d3e4e4 ;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+    size: 50px;
+}
+
+.middle-container{
+    background-color: #d8f0fd;
+}
+.profilePic01{
+    border-radius: 50%;
+    height: 230px;
+    width: 220px;
+    padding-top: 50px;
+}
+
+
+.myDescription ,.contactMsg{
+    padding: 12px 0 50px 0;
+    width: 44rem;
+    margin: 0 auto 0 auto ;
+}
+.h3Down{
+    padding-top: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skillImg01{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.skillImg02{
+    height: 150px;
+    width: 150px;    
+    float: right;
+    margin-left: 30px;
+}
+.skill-row-para01{
+    clear: left;
+}
+.skill-row-para02{
+    clear: right;
+    padding:0 0 0 0 ;
+}
+.h2GetBig{
+    color: teal;
+    font-size: 70px;
+}
+
+.bottom-container{
+    /* background-color: black; */
+    padding: 5px 0 12px 90px ;
+}
+
+.btn{
+    background-image: linear-gradient(to right, #1acf7b 0%, #62eec4 50%, #62e7ff 60%, #32ddfc 100%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 12px 0 75px 0;
+    background-size: 200% auto;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-position: right center;
+}
+
+.footer-link{
+    margin-right: 100px;
+    color: #135675;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+footer{
+    background-color: #65C2F5;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    color: #135675;
+    font-family: sans-serif;
+}
